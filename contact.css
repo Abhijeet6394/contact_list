@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    height: 300px;
+    width: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    right: 300px;
+    border: 1px solid black;
+    
+}
+.contact-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.alphabet{
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    background-color: #dae5f2;
+}
+.name{
+    background-color: #fafbfc;
+}
